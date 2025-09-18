@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 /**
  * BolsaGenTest.java
  * Clase de prueba de la clase BolsaGen.
- * @author Pablo
+ * @author E5
  */
 public class BolsaGenTest {
     /**

@@ -9,6 +9,10 @@ import java.util.Random;
  * Permite almacenar, contar, consultar, eliminar y limpiar elementos.
  * @param <t> Tipo de los objetos que contendrá la bolsa.
  * @author E5
+ * Cristian Jesus Cruz Mendivil - 00000267652
+ * Diego Daniel Chavez Martinez - 000000267854
+ * Luis Carlos Laborin Alvarez - 00000268492
+ * Juan Pablo Yepiz Leon - 00000268712
  */
 public class BolsaGen <T>{
     
