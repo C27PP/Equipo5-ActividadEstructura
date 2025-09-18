@@ -12,6 +12,9 @@ public class BolsaGenNum<T extends Number> extends BolsaGen <T> {
         super(tamBolsa);
     }
     public double suma() {
+        if (vacia()) {
+        throw new BolsaException("La bolsa está vacía");
+    }
     String s = toString();
     s = s.replace("[","").replace("]","");  
     String[] parts = s.split(",\\s*");       
@@ -23,6 +26,27 @@ public class BolsaGenNum<T extends Number> extends BolsaGen <T> {
     }
     
     public double promedio(){
+        if (vacia()) {
+        throw new BolsaException("La bolsa está vacía");
+    }
         return suma()/obtenNumObjetos();
     }
+    
+   public int mayores() {
+    if (vacia()) {
+        throw new BolsaException("La bolsa está vacía");
+    }
+    double prom = promedio();
+    int contador = 0;
+    String s = toString();
+    s = s.replace("[","").replace("]","");
+    String[] parts = s.split(",\\s*");
+    for (String num : parts) {
+        int valor = Integer.parseInt(num);
+        if (valor > prom) {
+            contador++;
+        }
+    }
+    return contador;
+}
 }
