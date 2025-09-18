@@ -14,8 +14,8 @@ public class BolsaGen <T>{
     private int numObjetos;
     private T[] objetos;
     /**
-     * Constructor de la clase Bolsa que inicializa el valor del tama�o de la bolsa
-     * @param tamBolsa Tama�o de la bolsa
+     * Constructor de la clase Bolsa que inicializa el valor del tamaño de la bolsa
+     * @param tamBolsa Tamaño de la bolsa
      */
 
     public BolsaGen(int tamBolsa) {
@@ -138,7 +138,7 @@ public class BolsaGen <T>{
         return arregloObjetos;
     }
     /**
-     * Devuelve la representaci�n en cadena de los elementos de la bolsa
+     * Devuelve la representación en cadena de los elementos de la bolsa
      * @return Una cadena con la lista de los objetos en la bolsa en el formato: "[objeto1, objeto2, ...]"
      */
     @Override
