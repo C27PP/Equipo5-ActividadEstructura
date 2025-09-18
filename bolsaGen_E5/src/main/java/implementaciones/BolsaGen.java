@@ -1,11 +1,13 @@
-
 package implementaciones;
 
 import excepciones.BolsaException;
 import java.util.Random;
 
 /**
- *
+ * BolsaGen.java
+ * Clase genérica que representa una bolsa de objetos.
+ * Permite almacenar, contar, consultar, eliminar y limpiar elementos.
+ * @param <t> Tipo de los objetos que contendrá la bolsa.
  * @author E5
  */
 public class BolsaGen <T>{

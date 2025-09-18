@@ -1,3 +1,5 @@
+package excepciones;
+
 /**
  * BolsaException.java
  * Esta clase permite crear excepciones del tipo BolsaException
@@ -5,9 +7,6 @@
  * en el codigo del proyecto bolsaGen_E5
  * @author E5
  */
-
-package excepciones;
-
 public class BolsaException extends RuntimeException{
     // Constructor vacio
     public BolsaException() {
