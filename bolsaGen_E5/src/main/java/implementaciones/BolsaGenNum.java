@@ -21,4 +21,8 @@ public class BolsaGenNum<T extends Number> extends BolsaGen <T> {
     }
     return suma;
     }
+    
+    public double promedio(){
+        return suma()/obtenNumObjetos();
+    }
 }
