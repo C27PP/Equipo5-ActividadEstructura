@@ -7,7 +7,7 @@ import java.util.Random;
  * BolsaGen.java
  * Clase genérica que representa una bolsa de objetos.
  * Permite almacenar, contar, consultar, eliminar y limpiar elementos.
- * @param <t> Tipo de los objetos que contendrá la bolsa.
+ * @param <T> Tipo de los objetos que contendrá la bolsa.
  * @author E5
  * Cristian Jesus Cruz Mendivil - 00000267652
  * Diego Daniel Chavez Martinez - 000000267854
